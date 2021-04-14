@@ -10,6 +10,7 @@ import ConditionallyRunUseEffects from '../../components/ConditionallyRunUseEffe
 import UseEffectOnlyOnce from '../../components/UseEffectOnlyOnce'
 import UseEffectCleanUp from '../../components/UseEffectCleanUp'
 import DataFetching from '../../components/DataFetching'
+import PracticeFetchingData from '../../components/PracticeFetchingData'
 
 export default function FirstPost() {
     return (
@@ -53,6 +54,9 @@ export default function FirstPost() {
 
             <h2>fetching data using axios</h2>
             <DataFetching />
+
+            <h2>practice fetching data from API</h2>
+            <PracticeFetchingData />
         </Layout>
     )
 }
